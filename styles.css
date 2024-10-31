@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-container {
+  margin: 0 23.5%;
+}
+
+.bg-color-1 {
+  background-color: #1f2937;
+}
+
+.bg-color-4 {
+  background-color: #3882f6;
+}
+
+.fcolor-1 {
+  color: #f9faf8;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  margin: 120px 0;
+}
+
+.information-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0 130px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.img-container {
+  border: 5px solid #3882f6;
+  width: 170px;
+  height: 170px;
+  border-radius: 15px;
+  box-sizing: content-box;
+  background-image: url('https://picsum.photos/170');
+}
+
+.box-card {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.sign-up-btn {
+  font-size: 18px;
+  padding: 7px 30px;
+  border-radius: 7px;
+  border: 1px solid #3882f6;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 18px;
+}
